@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prime Limo | Book Your Ride</title>
+
+<style>
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#000;
+    color:#fff;
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+    padding:20px 40px;
+    border-bottom:1px solid gold;
+}
+
+header h1 { color:gold; }
+
+.hero {
+    height:90vh;
+    background:url('https://images.unsplash.com/photo-1678718713393-2b88c8fcbba9?q=80&w=1974&auto=format&fit=crop') center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h2 {
+    font-size:48px;
+    background:rgba(0,0,0,0.6);
+    padding:20px;
+    color:gold;
+}
+
+.booking-box {
+    background:#111;
+    padding:30px;
+    margin-top:20px;
+    border:1px solid gold;
+    width:300px;
+}
+
+.booking-box input {
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:none;
+}
+
+.booking-box button {
+    width:100%;
+    padding:12px;
+    background:gold;
+    border:none;
+    cursor:pointer;
+}
+
+.section {
+    padding:60px 20px;
+    text-align:center;
+}
+
+.services {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card {
+    border:1px solid gold;
+    padding:20px;
+    width:250px;
+}
+
+footer {
+    border-top:1px solid gold;
+    padding:20px;
+    text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>PRIME LIMO</h1>
+<div>📞 862-842-2947</div>
+</header>
+
+<section class="hero">
+<h2>Luxury Rides. On Your Schedule.</h2>
+
+<div class="booking-box">
+<input type="text" placeholder="Pickup Location">
+<input type="text" placeholder="Dropoff Location">
+<input type="date">
+<input type="time">
+<button onclick="alert('Call 862-842-2947 to confirm booking')">
+Book Now
+</button>
+</div>
+</section>
+
+<section class="section">
+<h2>Our Services</h2>
+<div class="services">
+<div class="card">Airport Transfers</div>
+<div class="card">Corporate Travel</div>
+<div class="card">Events</div>
+<div class="card">Hourly Service</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Why Choose Us</h2>
+<p>Reliable. Professional. Always On Time.</p>
+</section>
+
+<section class="section">
+<h2>Contact</h2>
+<p>📞 862-842-2947</p>
+<p>📧 primelimo.info1@gmail.com</p>
+<p>Serving NJ & NYC Airports</p>
+</section>
+
+<footer>
+<p>© Prime Limo</p>
+</footer>
+
+</body>
+</html>
